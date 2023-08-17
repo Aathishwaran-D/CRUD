@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;;
+    margin: 150px 150px ;
+    align-items: center;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    gap: 200px
+}
+#post{
+    width: 300px;
+}
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 15px;
+}
+i{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
+h2{
+    color:#2980b9;
+}
+button{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    background: #7d2ae8;
+    font-weight: bolder;
+    cursor: pointer;
+}
